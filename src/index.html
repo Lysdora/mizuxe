@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bootstrap 4 Starter Pack</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body id="home">
+
+  <!--navbar-->
+  <nav class="navbar navbar-expand-md navbar-light fixed-top py-4">
+    <!--container nav-->
+    <div class="container">
+      <!--logo-->
+      <a href="index.html" class="navbar-brand">
+      <img src="img/mizuxe.png" width="50" height="50" alt=""><h3 class="d-inline align-middle"> Mizuxe <span class="pink">Tea</span></h3>
+    </a>
+      <!--button icon nav-->
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      <!--collapse nav-->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#tea" class="nav-link">The Tea</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--showcase-->
+  <section id="showcase" class="py-5">
+    <div class="primary-overlay text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 text-center">
+            <h1 class="display-2 mt-5 pt-5">
+            So What You Dream Of...
+            </h1>
+            <p class="lead">Putting the power of plants into your hands</p>
+            <a href="#" class="btn btn-outline-secondary btn-lg text-white"> <i class="fa fa-arrow-right"></i> Read More</a>
+          </div>
+          <div class="col-lg-6">
+            <img src="img/showcase-tea.jpg" style="opacity: 0.8;" alt="" class="img-fluid d-none d-lg-block">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!--newsletter-->
+<section id="newsletter" class="bg-dark text-white py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <input type="text" class="form-control form-control-lg" placeholder="Enter Name">
+      </div>
+      <div class="col-md-4">
+        <input type="text" class="form-control form-control-lg" placeholder="Enter Email">
+      </div>
+      <div class="col-md-4">
+      <button class="btn btn-primary btn-lg btn-block text-white"><i class="fa fa-envelope-open-o"></i> Subscribe</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--boxes-->
+<section id="boxes" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card text-center border-primary">
+          <div class="card-body">
+          <i class="fa fa-smile-o" aria-hidden="true"></i>
+            <h3 class="text-primay">Be Better</h3>
+            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, voluptatibus.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center bg-primary text-white">
+          <div class="card-body">
+            <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+            <h3>Be Creative</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, voluptatibus.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center border-primary">
+          <div class="card-body">
+          <i class="fa fa-rocket" aria-hidden="true"></i>
+            <h3 class="text-primay">Be Faster</h3>
+            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, voluptatibus.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center bg-primary text-white">
+          <div class="card-body">
+          <i class="fa fa-heartbeat" aria-hidden="true"></i>
+            <h3>Be Strong</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, voluptatibus.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--about -->
+<section id="about" class="py-5 text-center bg-light">
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <!--voir ici pour center une div avec un h1-->
+      <div class="info-header mb-5">
+        <h1 class="text-primary pb-3">
+          Why This Tea?
+        </h1>
+        <p class="lead pb-3">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias vel tempora in sed amet velit.
+        </p>
+      </div>
+
+      <!--accordion-->
+      <div id="accordion" role="tablist">
+        <div class="card">
+          <div class="card-header" id="heading1">
+            <h5 class="mb-0">
+              <div href="#collapse1" data-toggle="collapse" data-parent="#accordion">
+              <i class="fa fa-arrow-circle-down"></i>   Made in India
+              </div>
+            </h5>
+          </div>
+
+          <div id="collapse1" class="collapse show">
+            <div class="card-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur nisi cupiditate error atque aliquid cum eos nulla pariatur non mollitia laudantium, quo consequatur excepturi quaerat, harum veritatis tempora odit reprehenderit, repellat. Suscipit expedita dignissimos, soluta voluptates, ullam optio maxime vitae officia nesciunt sunt, quaerat qui aperiam reprehenderit fugit voluptatem labore.
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-primary text-white">
+          <div class="card-header" id="heading2">
+            <h5 class="mb-0">
+              <div href="#collapse2" data-toggle="collapse" data-parent="#accordion">
+              <i class="fa fa-arrow-circle-down"></i>   Tea Plantation
+              </div>
+            </h5>
+          </div>
+
+          <div id="collapse2" class="collapse">
+            <div class="card-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur nisi cupiditate error atque aliquid cum eos nulla pariatur non mollitia laudantium, quo consequatur excepturi quaerat, harum veritatis tempora odit reprehenderit, repellat. Suscipit expedita dignissimos, soluta voluptates, ullam optio maxime vitae officia nesciunt sunt, quaerat qui aperiam reprehenderit fugit voluptatem labore.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="heading3">
+            <h5 class="mb-0">
+              <div href="#collapse3" data-toggle="collapse" data-parent="#accordion">
+              <i class="fa fa-arrow-circle-down"></i>   100% Organic
+              </div>
+            </h5>
+          </div>
+
+          <div id="collapse3" class="collapse">
+            <div class="card-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur nisi cupiditate error atque aliquid cum eos nulla pariatur non mollitia laudantium, quo consequatur excepturi quaerat, harum veritatis tempora odit reprehenderit, repellat. Suscipit expedita dignissimos, soluta voluptates, ullam optio maxime vitae officia nesciunt sunt, quaerat qui aperiam reprehenderit fugit voluptatem labore.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+
+
+
+
+<!-- The tea-->
+<section id="tea" class="my-5 text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="info-header mb-5">
+          <h1 class="text-primary pb-3">
+            Origin of Mizuxe Tea
+          </h1>
+          <p class="lead pb-3">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias vel tempora in sed amet velit.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-6">
+        <div class="card">
+          <div class="card-body">
+          <img class="img-fluid rounded-circle w-50 mb-3" src="img/people1.jpeg" alt="">
+          <h3>Manita Peshtgyon</h3>
+          <h5 class="text-muted">Lead Mizuxe</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et </p>
+          <div class="d-flex flex-row justify-content-center">
+            <div class="p-4">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+            </div>
+            <div class="p-4">
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+            <div class="p-4">
+                <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="card">
+          <div class="card-body">
+          <img class="img-fluid rounded-circle w-50 mb-3" src="img/people1.jpeg" alt="">
+          <h3>Manita Peshtgyon</h3>
+          <h5 class="text-muted">Manager</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et </p>
+          <div class="d-flex flex-row justify-content-center">
+            <div class="p-4">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+            </div>
+            <div class="p-4">
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+            <div class="p-4">
+                <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="card">
+          <div class="card-body">
+          <img class="img-fluid rounded-circle w-50 mb-3" src="img/people1.jpeg" alt="">
+          <h3>Manita Peshtgyon</h3>
+          <h5 class="text-muted">Manager</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et </p>
+          <div class="d-flex flex-row justify-content-center">
+            <div class="p-4">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+            </div>
+            <div class="p-4">
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+            <div class="p-4">
+                <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="card">
+          <div class="card-body">
+          <img class="img-fluid rounded-circle w-50 mb-3" src="img/people1.jpeg" alt="">
+          <h3>Manita Peshtgyon</h3>
+          <h5 class="text-muted">Designer</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et </p>
+          <div class="d-flex flex-row justify-content-center">
+            <div class="p-4">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+            </div>
+            <div class="p-4">
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+            <div class="p-4">
+                <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Contact-->
+<section id="contact" class="bg-light py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9">
+        <h3>Get In Touch</h3>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, fuga.</p>
+        <form>
+          <div class="form-group">
+          <div class="input-group input-group-lg">
+            <span class="input-group-addon"><i class="fa fa-user"></i></span>
+            <input type="text" class="form-control" placeholder="Name">
+          </div>
+          </div>
+          <div class="form-group">
+          <div class="input-group input-group-lg">
+            <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+            <input type="email" class="form-control" placeholder="Email">
+          </div>
+          </div>
+          <div class="form-group">
+          <div class="input-group input-group-lg">
+            <span class="input-group-addon"><i class="fa fa-pencil"></i></span>
+            <textarea class="form-control" placeholder="Message" rows="5"></textarea>
+          </div>
+          </div>
+          <input type="submit" value="submit" class="btn btn-primary btn-block btn-lg text-white">
+        </form>
+      </div>
+      <div class="col-lg-3 align-self-center">
+<img src="img/mizuxe.png" alt="" class="img-fluid" style="padding-top: 20px;">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--footer-->
+<footer id="footer" class="py-5 bg-primary text-white">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-6 ml-auto">
+        <p class="lead">Copyright &copy; 2017</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/navbar.fixed.js"></script>
+</body>
+</html>
